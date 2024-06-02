@@ -55,7 +55,18 @@ Fama and French Three Factor Model Definition: https://www.investopedia.com/term
 
 Project 2: Twitter Sentiment Trading Strategy
 
+1) Load NASDAQ stocks twitter sentiment data
+2) Calculate a quantitive feature of the engagement ratio in Twitter of each stock
+3) Every month rank all stocks and construct an equal-weighted portfolio
+4) Compare it against NASDAQ performance. 
+
 
 
 
 Project 3: Intraday strategy Using GARCH Model
+1) Load simulated daily data and simulated 5 minute data
+2) Define function to fit GARCH model and predict 1-day ahead volatility in a rolling window
+3) Canculate prediction premium and form a daily signal from it. 
+4) Merge with intraday data and calculate intraday indicators to form the intraday signal
+5) Generate the position entry and hold until the end of the day.
+6) Calcualte final strategy returns. 
